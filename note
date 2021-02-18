@@ -1,0 +1,22 @@
+OS package 跟application package 的区别
+不同package managment 之间的区别（apt, rpm, pypi,npm,snap,brew......）
+    avaliable on internet, 
+    auto resolve dependancies
+    Download and install
+    local copy managment
+
+OS 组成： a group of process
+
+program:
+    file on disk
+    process in memory:
+        1.code
+        2.stack
+        3.data
+unix kernel user mode
+    kernel mode: 
+    user mode:
+
+shell:
+    STDIN(处理用户输入),STDOUT（处理输出）,STDERR（处理错误信息）
+    
