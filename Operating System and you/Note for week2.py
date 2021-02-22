@@ -34,3 +34,6 @@ ls -l ~/<filename> #check the info about the file
 icacls "C\Vacation Pictures"/grant Everyone:(IO)(CI)(R). #cmd to change the permission
 icacls 'C:\Vacation Pictures\' /grant 'Everyone: (OI)(CI)(R)' # power shell to change the permission
 icacls 'C:\Vacation Pictures\' /remove Everyone # power shell to remove the permission
+
+setUID #-rws the s instead of x, is setuid, make the file can be run like the root user without real root access, when change by chmod, it is the 4 of 4777
+
