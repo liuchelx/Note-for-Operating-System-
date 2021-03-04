@@ -15,7 +15,7 @@ curl -X POST --data "data=xxxx"  example.com/form.cgi # 可以用这种方式用
 curl -o <new file name> <URL link> # 从某个URL下载文件， <new file name > 是文件下载之后新保存的名字， 如果不写<new file name> 则保存为源文件名，等同于wget
 
 curl --limit-rate <rate> <website> # 限制带宽为<rate>里的值 
------如何取消？
+-----inly in this session
 
 curl -S <website> # 只显示错误信息
 curl -s <website> # 不显示错误信息，上面的是大写S，这个是小写
