@@ -61,3 +61,15 @@ GPO: Group Policy Object
     GPMC：group policy management console 
     WMI: Windows Management Instrumentation 
 
+OpenLDAP:
+    sudo apt-get install sladp ldap-utils # install the ldap
+    sudo dkpg-reconfigure slapd #change the configure 
+
+    PHPLDAPadmin: very similar to ADAC
+
+     LDIF files:
+        #some common cmmand:
+        ldapadd: take the input of LDIF file and add the context of it
+        ldapmodify
+        ldapdelete
+        ldapsearch
